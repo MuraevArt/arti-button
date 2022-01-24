@@ -3,13 +3,14 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/MuraevArt"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Arti test button",
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "publish": "npm run rollup && npm version patch --force && npm publish"
   },
   "author": "Artur Muraiev",
   "license": "ISC",
