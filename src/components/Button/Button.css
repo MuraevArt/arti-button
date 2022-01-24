@@ -1,3 +1,7 @@
 button {
-  font-size: 60px;
+  border: 1px solid rgb(41, 111, 216);
+  background-color: transparent;
+  border-radius: 3px;
+  color: black;
+  cursor: pointer;
 }
